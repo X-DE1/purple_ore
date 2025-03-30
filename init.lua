@@ -60,7 +60,7 @@ if minetest.get_modpath("cloudlands") then
 		biomes = {"tundra", "taiga", "snowy_grassland", "savanna", "sandstone_desert", "rainforest", "icesheet", "grassland", "desert", "deciduous_forest", "coniferous_forest", "cold_desert"},
 		y_max = 31000,
 		y_min = 190,
-		schematic = minetest.get_modpath("purple_ore") .. "/node.mts",
+		schematic = minetest.get_modpath("purple_ore") .. "/schematics/node.mts",
 		flags = "place_center_x, place_center_z",
 		rotation = "random",
 	})
@@ -73,7 +73,7 @@ if minetest.get_modpath("cloudlands") then
 			biomes = {"everness:mineral_waters", "everness:frosted_icesheet", "everness:forsaken_tundra", "everness:forsaken_desert", "everness:cursed_lands", "everness:crystal_forest", "everness:coral_forest", "everness:bamboo_forest"},
 			y_max = 31000,
 			y_min = 190,
-			schematic = minetest.get_modpath("purple_ore") .. "/node.mts",
+			schematic = minetest.get_modpath("purple_ore") .. "/schematics/node.mts",
 			flags = "place_center_x, place_center_z",
 			rotation = "random",
 		})
