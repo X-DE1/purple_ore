@@ -1,6 +1,6 @@
 # Purple ore
 
-Adds a ore in the 200 to 31000 cords.
+Adds new purple ore to floating islands and caves from height 200 to 31000.
 
 ## Installation
 
