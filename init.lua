@@ -79,6 +79,18 @@ if minetest.get_modpath("cloudlands") then
 		})
 	end
 end
+if minetest.get_modpath("sum_airship") then
+	minetest.clear_craft({output = "sum_airship:boat"})
+	minetest.register_craft({
+		output = "sum_airship:boat",
+		recipe = {
+		{"sum_airship:canvas_roll","sum_airship:canvas_roll","sum_airship:canvas_roll",},
+		{"farming:string", "purple_ore:purpleblock", "farming:string"},
+		{"farming:string", "sum_airship:hull", "farming:string"}
+    },
+
+	})
+end
 if minetest.get_modpath("nether") and minetest.get_modpath("x_obsidianmese") then
 	minetest.clear_craft({output = "x_obsidianmese:sword"})
 	minetest.register_craft({
