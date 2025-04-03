@@ -79,17 +79,6 @@ if minetest.get_modpath("cloudlands") then
 		})
 	end
 end
-if minetest.get_modpath("s_brewing") then
-	minetest.clear_craft({output = "s_brewing:stand"})
-	minetest.register_craft({
-		output = "s_brewing:stand",
-		recipe = {
-			{"vessels:glass_bottle", "vessels:glass_bottle", "vessels:glass_bottle"},
-			{"vessels:glass_bottle", "vessels:glass_bottle", "vessels:glass_bottle"},
-			{"purple_ore:purpleblock", "purple_ore:purpleblock", "purple_ore:purpleblock"}
-		}
-	})
-end
 if minetest.get_modpath("nether") and minetest.get_modpath("x_obsidianmese") then
 	minetest.clear_craft({output = "x_obsidianmese:sword"})
 	minetest.register_craft({
