@@ -85,8 +85,8 @@ if minetest.get_modpath("nether") and minetest.get_modpath("x_obsidianmese") the
 		output = "x_obsidianmese:sword",
 		recipe = {
 			{ "", "nether:nether_ingot", "" },
-			{ "purple_ore:purple_ingot", "nether:nether_ingot", "purple_ore:purple_ingot" },
-			{ "", "purple_ore:purple_ingot", "" },
+			{ "purple_ore:purpleblock", "nether:nether_ingot", "purple_ore:purpleblock" },
+			{ "", "purple_ore:purpleblock", "" },
 		}
 	})
 	minetest.clear_craft({output = "x_obsidianmese:sword_engraved"})
@@ -95,7 +95,7 @@ if minetest.get_modpath("nether") and minetest.get_modpath("x_obsidianmese") the
 		recipe = {
 			{ "", "nether:nether_ingot", "" },
 			{ "", "nether:nether_ingot", "" },
-			{ "", "purple_ore:purple_ingot", "" },
+			{ "", "purple_ore:purpleblock", "" },
 		}
 	})
 	minetest.clear_craft({output = "x_obsidianmese:pick"})
@@ -103,8 +103,8 @@ if minetest.get_modpath("nether") and minetest.get_modpath("x_obsidianmese") the
 		output = "x_obsidianmese:pick",
 		recipe = {
 			{ "nether:nether_ingot", "nether:nether_ingot", "nether:nether_ingot" },
-			{ "", "purple_ore:purple_ingot", "" },
-			{ "", "purple_ore:purple_ingot", "" },
+			{ "", "purple_ore:purpleblock", "" },
+			{ "", "purple_ore:purpleblock", "" },
 		}
 	})
 	minetest.clear_craft({output = "x_obsidianmese:shovel"})
@@ -112,8 +112,8 @@ if minetest.get_modpath("nether") and minetest.get_modpath("x_obsidianmese") the
 		output = "x_obsidianmese:shovel",
 		recipe = {
 			{ "nether:nether_ingot" },
-			{ "purple_ore:purple_ingot" },
-			{ "purple_ore:purple_ingot" },
+			{ "purple_ore:purpleblock" },
+			{ "purple_ore:purpleblock" },
 		}
 	})
 	minetest.clear_craft({output = "x_obsidianmese:axe"})
@@ -121,8 +121,8 @@ if minetest.get_modpath("nether") and minetest.get_modpath("x_obsidianmese") the
 		output = "x_obsidianmese:axe",
 		recipe = {
 			{ "nether:nether_ingot", "nether:nether_ingot" },
-			{ "nether:nether_ingot", "purple_ore:purple_ingot" },
-			{ "", "purple_ore:purple_ingot" },
+			{ "nether:nether_ingot", "purple_ore:purpleblock" },
+			{ "", "purple_ore:purpleblock" },
 		}
 	})
 	minetest.clear_craft({output = "x_obsidianmese:hoe"})
@@ -130,8 +130,8 @@ if minetest.get_modpath("nether") and minetest.get_modpath("x_obsidianmese") the
 		output = "x_obsidianmese:hoe",
 		recipe = {
 			{ "nether:nether_ingot", "nether:nether_ingot", '' },
-			{ "", "purple_ore:purple_ingot", "" },
-			{ "", "purple_ore:purple_ingot", "" },
+			{ "", "purple_ore:purpleblock", "" },
+			{ "", "purple_ore:purpleblock", "" },
 		}
 	})
 	minetest.clear_craft({output = "x_obsidianmese:pick_engraved"})
@@ -139,8 +139,8 @@ if minetest.get_modpath("nether") and minetest.get_modpath("x_obsidianmese") the
 		output = "x_obsidianmese:pick_engraved",
 		recipe = {
 			{ "nether:nether_ingot", 'default:diamond', "nether:nether_ingot" },
-			{ "", "purple_ore:purple_ingot", "" },
-			{ "", "purple_ore:purple_ingot", "" },
+			{ "", "purple_ore:purpleblock", "" },
+			{ "", "purple_ore:purpleblock", "" },
 		}
 	})
 	minetest.clear_craft({output = "x_obsidianmese:mese_apple"})
