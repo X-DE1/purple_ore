@@ -48,8 +48,8 @@ minetest.register_ore({
 	clust_scarcity = 8*8*8,
 	clust_num_ores = 9,
 	clust_size     = 3,
-	height_max     = 31000,
-	height_min     = 190,
+	y_max = 31000,
+	y_min = 190,
 })
 if minetest.get_modpath("cloudlands") then
 	minetest.register_decoration({
